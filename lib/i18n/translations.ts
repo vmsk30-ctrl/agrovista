@@ -1,0 +1,351 @@
+// AgroVista Bilingual Localization System (English & Telugu)
+// Designed for high readability, large buttons, and clear agricultural terminology.
+
+export const translations = {
+  en: {
+    // Brand & Header
+    brandName: "AgroVista",
+    brandTagline: "Direct Farmer-to-Consumer Agricultural Marketplace",
+    heroHeading: "From Farmers to Families, Directly.",
+    heroSubheading: "Empowering rural farmers with fair mandi price intelligence, direct customer sales, AI advisory, and zero middlemen exploitation.",
+    shopFreshCTA: "Shop Fresh Produce",
+    sellProduceCTA: "Sell Your Produce (Farmer)",
+    demoModeBadge: "Sandbox / Demo Mode Active",
+    
+    // Navigation
+    navHome: "Home",
+    navMarketplace: "Marketplace",
+    navPrices: "Mandi Prices",
+    navAIAdvisor: "Crop Advisor",
+    navFertilizer: "Fertilizer Guide",
+    navSchemes: "Govt Schemes",
+    navWeather: "Weather",
+    navLiteracy: "Farmer Digital Guide",
+    navDashboard: "Dashboard",
+    navLogin: "Login / Register",
+    navLogout: "Logout",
+    navCart: "Cart",
+    
+    // Roles
+    roleFarmer: "Farmer (రైతు)",
+    roleCustomer: "Consumer / Buyer (వినియోగదారుడు)",
+    roleAdmin: "Platform Admin",
+    roleDelivery: "Delivery Partner",
+    selectRole: "Select Your Role",
+    
+    // Auth & OTP
+    enterMobile: "Enter Mobile Number",
+    mobilePlaceholder: "e.g. 9876543210",
+    sendOTP: "Send Verification OTP",
+    enterOTP: "Enter 6-digit OTP",
+    verifyOTP: "Verify & Enter AgroVista",
+    resendOTP: "Resend OTP",
+    otpSentTo: "OTP sent to +91",
+    resendCooldown: "Resend available in",
+    seconds: "seconds",
+    authDisclaimer: "Authentic SMS delivery. In sandbox mode, use the test verification code provided on screen.",
+    wrongOTP: "Invalid OTP. Please check and try again.",
+    otpAttemptsExceeded: "Maximum attempts reached. Please request a fresh OTP.",
+    
+    // Common Actions
+    save: "Save",
+    cancel: "Cancel",
+    confirm: "Confirm",
+    back: "Back",
+    searchPlaceholder: "Search crops, vegetables, fruits, markets...",
+    filter: "Filter",
+    allCategories: "All Categories",
+    price: "Price",
+    quantity: "Quantity",
+    unit: "Unit",
+    status: "Status",
+    date: "Date",
+    viewDetails: "View Details",
+    loading: "Loading...",
+    noData: "No data available",
+    tryAgain: "Try Again",
+    close: "Close",
+    
+    // Marketplace & Product
+    vegetables: "Vegetables",
+    fruits: "Fruits",
+    grains: "Grains",
+    pulses: "Pulses",
+    spices: "Spices",
+    dairy: "Dairy",
+    organic: "100% Organic",
+    addToCart: "Add to Cart",
+    inStock: "In Stock",
+    outOfStock: "Out of Stock",
+    farmerPrice: "Farmer Price",
+    mandiReference: "Mandi Ref Price",
+    harvestedOn: "Harvested On",
+    farmLocation: "Farm Location",
+    verifiedFarmer: "Verified Telangana Farmer",
+    
+    // Cart & Checkout
+    cartTitle: "Your Fresh Cart",
+    cartEmpty: "Your cart is empty. Explore produce from local farmers!",
+    subtotal: "Subtotal",
+    deliveryFee: "Delivery & Packing",
+    totalAmount: "Total Payable",
+    proceedToCheckout: "Proceed to Checkout",
+    shippingAddress: "Delivery Address",
+    shippingPlaceholder: "Flat / House No, Street, Village or City, Pincode",
+    contactPhone: "Contact Phone Number",
+    payWithRazorpay: "Pay Securely with Razorpay / UPI",
+    sandboxPaymentNotice: "Secure Payment Sandbox: Verify real UPI/Cards without actual deduction.",
+    
+    // Order Lifecycle
+    orderStatus_ORDER_PLACED: "Order Placed",
+    orderStatus_FARMER_CONFIRMED: "Farmer Confirmed",
+    orderStatus_PREPARING: "Harvesting & Packing",
+    orderStatus_READY_FOR_PICKUP: "Ready for Pickup",
+    orderStatus_PICKED_UP: "Picked Up by Agent",
+    orderStatus_OUT_FOR_DELIVERY: "Out for Delivery",
+    orderStatus_DELIVERED: "Delivered Fresh",
+    orderStatus_CANCELLED: "Cancelled",
+    trackOrder: "Track Delivery",
+    
+    // Farmer Dashboard
+    farmerOverview: "Farmer Command Center",
+    todaysOrders: "Today's Orders",
+    totalEarnings: "Total Earnings",
+    activeProducts: "Active Listings",
+    addListing: "List New Produce",
+    myProduce: "My Produce",
+    receivedOrders: "Customer Orders",
+    marketIntelligence: "Telangana Mandi Intelligence",
+    aiPricePrediction: "AI 7-Day Price Forecast",
+    
+    // Market Prices
+    liveMandiPrices: "Telangana Agricultural Mandi Prices",
+    officialSource: "Source: Agmarknet & Directorate of Agricultural Marketing",
+    modalPrice: "Modal Price",
+    minPrice: "Min Price",
+    maxPrice: "Max Price",
+    lastUpdated: "Last Updated",
+    priceTrend7d: "7-Day Historical Trend",
+    
+    // AI Predictions
+    aiForecastTitle: "AI Market Price Prediction",
+    aiAdvisoryNote: "Estimates are generated from historical market trends, seasonal inflows, and current mandi arrivals. These are advisory estimates, not guaranteed future rates.",
+    predictedRange: "Predicted Range",
+    confidenceLevel: "Model Confidence",
+    horizon: "Forecast Horizon",
+    trendUpward: "Upward Demand (+)",
+    trendDownward: "Inflow Surplus (-)",
+    trendStable: "Stable Price (=)",
+    
+    // Crop & Fertilizer Advisory
+    cropAdvisorTitle: "Telangana Crop Advisory Assistant",
+    cropAdvisorSub: "Personalized recommendations matching your district, season, soil type, and irrigation resources.",
+    soilType: "Soil Type",
+    season: "Agricultural Season",
+    waterSource: "Water / Irrigation Source",
+    farmSize: "Farm Size (Acres)",
+    getRecommendation: "Get Expert Advisory",
+    fertilizerGuideTitle: "Authoritative Fertilizer & Nutrient Guidance",
+    fertilizerSub: "Scientifically backed dosage and application stages from Professor Jayashankar Telangana State Agricultural University (PJTSAU).",
+    growthStage: "Growth Stage",
+    
+    // Government Schemes
+    schemesTitle: "Telangana & Central Farmer Schemes",
+    schemesSub: "Explore Rythu Bandhu, Rythu Bima, PM-KISAN, Solar Pump Subsidy, and crop insurance with official application portals.",
+    eligibility: "Eligibility Criteria",
+    benefits: "Scheme Benefits",
+    documentsRequired: "Required Documents",
+    applyNow: "Official Portal Link",
+    
+    // Weather
+    weatherTitle: "Telangana Agri-Weather Forecast",
+    weatherSub: "Real-time agro-meteorological advisories, rainfall forecasts, and temperature alerts for harvesting.",
+    farmingAdvisory: "Farming Advisory Today",
+    humidity: "Humidity",
+    rainChance: "Rain Probability",
+    windSpeed: "Wind Speed",
+    
+    // Voice & Accessibility
+    voiceAssist: "AgroVista Voice Assistant",
+    voiceListening: "Listening... speak now in Telugu or English",
+    voiceSpeakPrompt: "Click microphone to listen to this page",
+    voiceReadSummary: "Read aloud page summary",
+    
+    // Digital Literacy
+    literacyTitle: "Digital Literacy & Online Safety for Farmers",
+    literacySub: "Step-by-step pictorial guides on smartphone usage, UPI QR scanning, preventing cyber scams, and accessing government portals.",
+  },
+  te: {
+    // Brand & Header
+    brandName: "ఆగ్రోవిస్టా (AgroVista)",
+    brandTagline: "రైతుల నుండి వినియోగదారులకు నేరుగా వ్యవసాయ వేదిక",
+    heroHeading: "రైతుల నుంచి నేరుగా మీ ఇంటికి - తాజాగా, న్యాయమైన ధరతో.",
+    heroSubheading: "దళారుల బెడద లేకుండా మార్కెట్ ధరలు, నేరుగా అమ్ముకునే వెసులుబాటు, AI పంట సలహాలు మరియు ప్రభుత్వ పథకాల సమాచారం ఒకే చోట.",
+    shopFreshCTA: "తాజా కూరగాయలు & పంటలు కొనండి",
+    sellProduceCTA: "రైతు నమోదు / పంట అమ్మండి",
+    demoModeBadge: "సాండ్‌బాక్స్ / డెమో మోడ్ యాక్టివ్",
+    
+    // Navigation
+    navHome: "హోమ్",
+    navMarketplace: "రైతు బజార్",
+    navPrices: "మార్కెట్ ధరలు",
+    navAIAdvisor: "పంట సలహాదారు",
+    navFertilizer: "ఎరువుల మార్గదర్శి",
+    navSchemes: "ప్రభుత్వ పథకాలు",
+    navWeather: "వాతావరణం",
+    navLiteracy: "డిజిటల్ విజ్ఞానం",
+    navDashboard: "నా ఖాతా / డాష్‌బోర్డ్",
+    navLogin: "లాగిన్ / రిజిస్ట్రేషన్",
+    navLogout: "లాగ్ అవుట్",
+    navCart: "షాపింగ్ బుట్ట",
+    
+    // Roles
+    roleFarmer: "రైతు (Farmer)",
+    roleCustomer: "వినియోగదారుడు (Consumer)",
+    roleAdmin: "అడ్మిన్ (Admin)",
+    roleDelivery: "డెలివరీ భాగస్వామి",
+    selectRole: "మీ ఖాతా రకాన్ని ఎంచుకోండి",
+    
+    // Auth & OTP
+    enterMobile: "మీ మొబైల్ నంబర్ నమోదు చేయండి",
+    mobilePlaceholder: "ఉదా: 9876543210",
+    sendOTP: "OTP కోడ్ పంపండి",
+    enterOTP: "6 అంకెల OTP నమోదు చేయండి",
+    verifyOTP: "ధృవీకరించి ప్రవేశించండి",
+    resendOTP: "మళ్ళీ OTP పంపండి",
+    otpSentTo: "OTP పంపబడిన నంబర్: +91",
+    resendCooldown: "మళ్ళీ పంపడానికి సమయం",
+    seconds: "సెకన్లు",
+    authDisclaimer: "నిజమైన SMS ద్వారా OTP వస్తుంది. డెమో మోడ్‌లో స్క్రీన్ పై కనిపించే కోడ్ ఉపయోగించవచ్చు.",
+    wrongOTP: "తప్పుడు OTP. దయచేసి సరైన కోడ్ ఇవ్వండి.",
+    otpAttemptsExceeded: "పరిమితి దాటింది. దయచేసి మళ్ళీ ప్రయత్నించండి.",
+    
+    // Common Actions
+    save: "భద్రపరచు",
+    cancel: "రద్దు చేయి",
+    confirm: "నిర్ధారించు",
+    back: "వెనుకకు",
+    searchPlaceholder: "కూరగాయలు, పండ్లు, మార్కెట్ లేదా జిల్లా వెతకండి...",
+    filter: "ఫిల్టర్",
+    allCategories: "అన్ని రకాలు",
+    price: "ధర",
+    quantity: "పరిమాణం",
+    unit: "కొలత",
+    status: "స్థితి",
+    date: "తేదీ",
+    viewDetails: "వివరాలు చూడండి",
+    loading: "లోడ్ అవుతోంది...",
+    noData: "సమాచారం అందుబాటులో లేదు",
+    tryAgain: "మళ్ళీ ప్రయత్నించండి",
+    close: "మూసివేయి",
+    
+    // Marketplace & Product
+    vegetables: "కూరగాయలు",
+    fruits: "పండ్లు",
+    grains: "ధాన్యాలు",
+    pulses: "పప్పు దినుసులు",
+    spices: "మసాలా దినుసులు",
+    dairy: "పాడి ఉత్పత్తులు",
+    organic: "100% సేంద్రీయ / సహజ పద్ధతి",
+    addToCart: "బుట్టలో వేయండి",
+    inStock: "లభ్యంగా ఉంది",
+    outOfStock: "అయిపోయింది",
+    farmerPrice: "రైతు నిర్ణయించిన ధర",
+    mandiReference: "మార్కెట్ యార్డ్ ధర",
+    harvestedOn: "కోత కోసిన తేదీ",
+    farmLocation: "పొలం ఉన్న ప్రదేశం",
+    verifiedFarmer: "ధృవీకరించబడిన తెలంగాణ రైతు",
+    
+    // Cart & Checkout
+    cartTitle: "మీ బుట్టలోని వస్తువులు",
+    cartEmpty: "మీ బుట్ట ఖాళీగా ఉంది. స్థానిక రైతుల తాజా ఉత్పత్తులను చూడండి!",
+    subtotal: "మొత్తం ధర",
+    deliveryFee: "రవాణా మరియు ప్యాకింగ్",
+    totalAmount: "చెల్లించవలసిన మొత్తం",
+    proceedToCheckout: "ఆర్డర్ చేయడానికి వెళ్లండి",
+    shippingAddress: "డెలివరీ చిరునామా",
+    shippingPlaceholder: "ఇంటి నెం, వీధి, గ్రామం/పట్టణం, పిన్‌కోడ్",
+    contactPhone: "సంప్రదించవలసిన ఫోన్ నంబర్",
+    payWithRazorpay: "Razorpay / UPI ద్వారా సురక్షిత చెల్లింపు",
+    sandboxPaymentNotice: "డెమో చెల్లింపు మోడ్: మీ బ్యాంక్ ఖాతా నుండి అసలు డబ్బు కట్ అవ్వదు.",
+    
+    // Order Lifecycle
+    orderStatus_ORDER_PLACED: "ఆర్డర్ చేయబడింది",
+    orderStatus_FARMER_CONFIRMED: "రైతు నిర్ధారించారు",
+    orderStatus_PREPARING: "తాజాగా కోసి ప్యాక్ చేస్తున్నారు",
+    orderStatus_READY_FOR_PICKUP: "తీసుకోవడానికి సిద్ధంగా ఉంది",
+    orderStatus_PICKED_UP: "డెలివరీ ఏజెంట్ తీసుకున్నారు",
+    orderStatus_OUT_FOR_DELIVERY: "మీ ఇంటికి వస్తున్నారు",
+    orderStatus_DELIVERED: "విజయవంతంగా డెలివరీ అయింది",
+    orderStatus_CANCELLED: "రద్దు చేయబడింది",
+    trackOrder: "ఆర్డర్ ట్రాక్ చేయండి",
+    
+    // Farmer Dashboard
+    farmerOverview: "రైతు కేంద్రం",
+    todaysOrders: "ఈరోజు ఆర్డర్లు",
+    totalEarnings: "మొత్తం ఆదాయం",
+    activeProducts: "అమ్మకానికి ఉన్న ఉత్పత్తులు",
+    addListing: "కొత్త పంట జాబితా చేయండి",
+    myProduce: "నా ఉత్పత్తులు",
+    receivedOrders: "వచ్చిన ఆర్డర్లు",
+    marketIntelligence: "తెలంగాణ మార్కెట్ ధరల సమాచారం",
+    aiPricePrediction: "AI 7-రోజుల ధరల అంచనా",
+    
+    // Market Prices
+    liveMandiPrices: "తెలంగాణ వ్యవసాయ మార్కెట్ యార్డ్ ధరలు",
+    officialSource: "ఆధారం: అగ్‌మార్క్‌నెట్ (Agmarknet) & తెలంగాణ వ్యవసాయ మార్కెటింగ్ శాఖ",
+    modalPrice: "సగటు మోడల్ ధర",
+    minPrice: "కనిష్ట ధర",
+    maxPrice: "గరిష్ట ధర",
+    lastUpdated: "చివరిగా నవీకరించబడిన సమయం",
+    priceTrend7d: "గత 7 రోజుల ధరల చరిత్ర",
+    
+    // AI Predictions
+    aiForecastTitle: "AI మార్కెట్ ధరల ముందస్తు అంచనా",
+    aiAdvisoryNote: "ఈ ధరల అంచనాలు గత మార్కెట్ వివరాలు, రాకడలు మరియు కాలానుగుణ పోకడల ఆధారంగా రూపొందించినవి. ఇవి కేవలం సలహా కోసం మాత్రమే, హామీ ఇవ్వబడిన ధరలు కావు.",
+    predictedRange: "అంచనా వేసిన ధరల పరిధి",
+    confidenceLevel: "మోడల్ విశ్వసనీయత",
+    horizon: "అంచనా కాలం",
+    trendUpward: "ధర పెరిగే అవకాశం (+)",
+    trendDownward: "సరుకు రాకతో తగ్గే అవకాశం (-)",
+    trendStable: "స్థిరమైన ధర (=)",
+    
+    // Crop & Fertilizer Advisory
+    cropAdvisorTitle: "తెలంగాణ రైతు పంట సలహాదారు",
+    cropAdvisorSub: "మీ జిల్లా, వాతావరణం, నేల రకం మరియు నీటి వనరుల ఆధారంగా సరైన పంట ఎంపిక.",
+    soilType: "నేల రకం",
+    season: "వ్యవసాయ కాలం (ఖరీఫ్/రబీ)",
+    waterSource: "నీటి వనరు (బోరు/కాలువ/వర్షాధారం)",
+    farmSize: "పొలం విస్తీర్ణం (ఎకరాలు)",
+    getRecommendation: "సిఫార్సులను పొందండి",
+    fertilizerGuideTitle: "శాస్త్రీయ ఎరువులు & పోషకాల మార్గదర్శి",
+    fertilizerSub: "ఆచార్య జయశంకర్ తెలంగాణ వ్యవసాయ విశ్వవిద్యాలయం (PJTSAU) సూచించిన మోతాదులు.",
+    growthStage: "పంట దశ",
+    
+    // Government Schemes
+    schemesTitle: "తెలంగాణ & కేంద్ర ప్రభుత్వ రైతు పథకాలు",
+    schemesSub: "రైతు బంధు, రైతు బీమా, పిఎం-కిసాన్, వ్యవసాయ యంత్రాలు మరియు సబ్సిడీల పూర్తి సమాచారం.",
+    eligibility: "అర్హతలు",
+    benefits: "లభించే ప్రయోజనాలు",
+    documentsRequired: "కావలసిన పత్రాలు",
+    applyNow: "అధికారిక వెబ్‌సైట్",
+    
+    // Weather
+    weatherTitle: "వ్యవసాయ వాతావరణ సమాచారం",
+    weatherSub: "వాతావరణ సూచనలు, వర్షపాతం మరియు కోత కోయడానికి అవసరమైన వ్యవసాయ సలహాలు.",
+    farmingAdvisory: "ఈనాటి వ్యవసాయ సలహా",
+    humidity: "తేమ శాతం",
+    rainChance: "వర్షం పడే అవకాశం",
+    windSpeed: "గాలి వేగం",
+    
+    // Voice & Accessibility
+    voiceAssist: "ఆగ్రోవిస్టా వాయిస్ అసిస్టెంట్",
+    voiceListening: "వినబడుతోంది... తెలుగు లేదా ఇంగ్లీషులో మాట్లాడండి",
+    voiceSpeakPrompt: "ఈ పేజీ వివరాలు వినడానికి మైక్రోఫోన్ నొక్కండి",
+    voiceReadSummary: "ముఖ్యాంశాలు చదవండి",
+    
+    // Digital Literacy
+    literacyTitle: "రైతులకు డిజిటల్ పరిజ్ఞానం & భద్రత",
+    literacySub: "స్మార్ట్‌ఫోన్ వాడకం, UPI ద్వారా నగదు బదిలీ, సైబర్ మోసాల నివారణపై సులభమైన బొమ్మలతో వివరణలు.",
+  },
+};
